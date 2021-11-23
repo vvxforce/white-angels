@@ -26,7 +26,7 @@ const list = [
 
 const Container = styled.div`
   background-image: url(${img});
-  min-height: 100vh;
+  height: 100%;
 `;
 
 const Text = styled.div`

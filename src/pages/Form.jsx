@@ -9,10 +9,12 @@ import { Link, Route, Redirect, useHistory } from "react-router-dom";
 const Container = styled.div`
   background-image: url(${img});
   min-height: 100vh;
+  height:100%;
 `;
 const Code = styled.div`
 display: flex;
-margin-top: 50vh;
+padding-top: 50vh;
+/*margin-top: 50vh;*/
 justify-content: center;
 align-items: center;
 `;
@@ -28,7 +30,6 @@ const Form = () => {
 
     return (
         <Container> 
-        <Navbar/>
         <Code>
           
             <ReactInputVerificationCode /*onChange={value =>*/ onCompleted={(value) =>{

@@ -6,6 +6,8 @@ import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+import Contact from "./pages/Contact";
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -44,6 +46,9 @@ const App = () => {
         </Route>
         <Route path="/about">
           <About/>
+          </Route>
+          <Route path="/contact">
+          <Contact/>
           </Route>
       </Switch>
     </Router>

@@ -84,8 +84,8 @@ const Navbar = () => {
           <Link to="/about">
           <MenuItem>About</MenuItem>
           </Link>
-          <MenuItem>Contact</MenuItem>
           <Link to="/contact">
+          <MenuItem>Contact</MenuItem>
           </Link>
         </Right>
       </Wrapper>

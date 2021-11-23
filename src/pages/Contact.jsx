@@ -8,13 +8,11 @@ import Products from "../components/Products";
 import Slider from "../components/Slider";
 import styled from "styled-components";
 import img from '../img/bg.jpeg';
-import box2 from '../img/box2.png';
 
 const Container = styled.div`
   background-image: url(${img});
   min-height: 100vh;
 `;
-
 
 const Text = styled.div`
 padding: 10vh 5vw;
@@ -30,14 +28,13 @@ const SubText = styled.div`
  font-size: 48px;
 `;
 
-const About = () => {
+const Contact = () => {
   return (
     <Container>
       <Navbar/>
-      <Text>Here will be information about White Angels</Text>
-      <Text><img src={box2}/></Text>
+      <Text>If You have any questions, You can call +1-800-333-22-11</Text>
       </Container>
   );
 };
 
-export default About;
+export default Contact;
